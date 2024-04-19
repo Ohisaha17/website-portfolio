@@ -1,0 +1,36 @@
+@font-face {
+    font-family: head;
+    src: url(Pilowlava-Regular.otf)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    /* --main-color: #d4d4fc; */
+    --text-color: #0504aa;
+    --color-1: #F78D05;
+    --color-2: #c3c3fd;
+}
+
+#downloadBtn {
+    font-family: head;
+    color: #ffffff;
+    padding: 0.7em 1.7em;
+    font-size: 14px;
+    border-radius: 15px;
+    background: var(--text-color);
+    cursor: pointer;
+    border: 3px solid var(--text-color);
+    transition: all 0.3s;
+    box-shadow: 2px  2px 2px rgb(154, 154, 209),
+    inset  2px  2px 2px #e6e6fe;
+}
+
+#downloadBtn:hover {
+    color: var(--text-color);
+    background-color: var(--color-2);
+}
