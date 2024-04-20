@@ -381,7 +381,8 @@ nav {
 
 @media(max-width:680px) {
     .sidenav {
-        height: 30px;
+        display: none;
+        /* height: 30px;
         width: 100vw;
         top: 0;
         left: 0;
@@ -390,7 +391,7 @@ nav {
         justify-content: center;
         transform: rotate(0deg);
         writing-mode: horizontal-tb;
-        text-orientation: revert;
+        text-orientation: revert; */
         /* z-index: 10; */
 
         a {
@@ -599,6 +600,7 @@ h4 {
 .tools {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     overflow: hidden;
 
     img {
